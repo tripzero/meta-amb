@@ -1,0 +1,9 @@
+[Unit]
+Description=CAN startup service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/start-can
+
+[Install]
+WantedBy=multi-user.target
