@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-source /etc/can-service
+source /etc/can-init
 
 ip link set can0 type can bitrate $BITRATE
 ip link set can0 up type can

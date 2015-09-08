@@ -23,8 +23,8 @@ do_install() {
 
 FILES_${PN} = " \
                ${bindir}/start-can \
-               ${systemd_unitdir}/system/can.service \
-               /etc/can-service \
+               ${systemd_unitdir}/system/can-init.service \
+               /etc/can-init \
               "
 
 
