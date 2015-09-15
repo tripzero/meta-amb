@@ -1,7 +1,7 @@
 [Unit]
 Description=CAN startup service
 After=network.target
-Type=onshot
+Type=oneshot
 
 [Service]
 ExecStart=/usr/bin/start-can
